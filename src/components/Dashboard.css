@@ -1,0 +1,57 @@
+/* .cont{
+    width: 100%;
+  /* min-height: 10vh; 
+  background-image: linear-gradient(rgb(9, 0, 77, 0.65), rgba(9, 0, 77, 0.65));
+  background-image: url("https://revolutionized.com/wp-content/uploads/sites/5/2022/05/rocket-launch-at-sunset.jpg");
+  background-size: cover;
+  /* background-position: center; 
+  padding: 10px 8%;
+  } */
+  .content1 {
+    margin-top: 11%;
+    /* text-align: center; */
+    color: #fdfcfd;
+    max-width: 620px;
+    font-size: 25px;
+    justify-content: start;
+    /* position: relative; */
+   
+    
+  }
+.intro{
+  display: flex;
+  height: 10vh;
+  margin-top: -70px;
+  font-size: 40px;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+@media screen and (max-width :800px) {
+    .intro{
+        display: flex;
+        height: 10vh;
+        margin-top: -70px;
+        font-size: 40px;
+        background-size: cover;
+        background-repeat: no-repeat;
+      
+      }
+      
+    
+}
+
+.btn{
+    text-decoration: none;
+    list-style: none;
+    background-color: rgb(247, 244, 244);
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    
+}
+

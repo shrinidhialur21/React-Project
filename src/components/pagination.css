@@ -1,0 +1,23 @@
+.pagination button.active{
+    /* font-weight: 900; */
+    /* border-color: rgb(231, 25, 25); */
+    background: #0b4658;
+    color: rgb(255, 255, 255);
+    
+
+}
+button{
+    background-color: rgb(243, 243, 242);
+    font-size: 15px;
+    border-radius: 44%;
+    margin: 10px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    /* margin-left: 20px; */
+    
+}
+
+button:hover{
+    background-color: rgb(179, 178, 178);
+}

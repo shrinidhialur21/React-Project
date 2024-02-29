@@ -1,0 +1,25 @@
+/* Add this CSS to your ConfirmationPage component or import a separate CSS file */
+
+.Container {
+    margin-top: 50px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  TextField {
+    margin-bottom: 20px;
+  }
+  
+  Typography {
+    margin-top: 20px;
+  }
+  
+  Button {
+    margin-top: 20px;
+  }
+  

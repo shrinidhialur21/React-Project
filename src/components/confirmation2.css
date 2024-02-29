@@ -1,0 +1,18 @@
+.final-confirmation-container {
+    background-color: white;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    
+
+  }
+  
+  .confirmation-details {
+    margin-top: 20px;
+  }
+  
+  .confirmation-message {
+    margin-top: 30px;
+    font-style: italic;
+  }
+  
