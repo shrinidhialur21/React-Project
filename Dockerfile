@@ -1,9 +1,10 @@
-FROM node:16.10-slim
-
-COPY . /app
-WORKDIR /app
-
-# RUN npm install
-# RUN npm run build
-
-ENTRYPOINT npx react-inject-env set && npx http-server --proxy http://localhost:8080? ./build
+FROM alpine:3.18
+ 
+# Show some logs during build
+RUN echo "Starting build process..." && \
+    echo "Step 1: Installing dependencies" && \
+    sleep 1 && \
+    echo "Step 2: Doing some work" && \
+    sleep 1 && \
+    echo "Step 3: Simulating failure" && \
+    exit 1
